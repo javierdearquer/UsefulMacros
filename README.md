@@ -1,8 +1,7 @@
 ## 📌 Features
 - **Excel VBA Macros** – Automate repetitive tasks in Excel
-- **Command Line Scripts** – Useful shortcuts for efficiency
-- **Python Macros** – Automate workflows with Python
-- **Other Useful Scripts** – Various automation tools
+- **Outlook VBA Macros** – Automate repetitive tasks in Excel
+- **PowerPoint VBA Macros** – Automate repetitive tasks in Excel
 
 ## 🚀 Getting Started
 1. Clone the repository:
@@ -16,14 +15,15 @@
 ```
 Javi-Macros/
 │-- Excel_VBA/
-│   ├── ExampleMacro.bas
-│   ├── Readme.md
-│-- Python_Scripts/
-│   ├── automation_script.py
-│   ├── Readme.md
-│-- CLI_Tools/
-│   ├── useful_script.sh
-│   ├── Readme.md
+│   ├── CaesarCipherEncoding.bas
+│   ├── GoToA1andZoom.bas
+│   ├── README.md
+│-- Outlook/
+│   ├── VbaProject.OTM
+│   ├── README.md
+│-- PowerPoint/
+│   ├── release.pptm
+│   ├── README.md
 │-- README.md
 ```
 
