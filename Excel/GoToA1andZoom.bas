@@ -1,10 +1,9 @@
 Sub GoToA1AndZoom()
-    Dim ws As Worksheet
-    Application.ScreenUpdating = False
-    For Each ws In ThisWorkbook.Sheets
-        ws.Activate
-        ws.Range("A1").Select
-        ActiveWindow.Zoom = 100
-    Next ws
-    Application.ScreenUpdating = True
+    Dim ws As Worksheet 
+    For Each ws In ActiveWorkbook.Sheets 
+        ws.Activate 
+        Cells(ActiveWindow.SplitRow + 1, ActiveWindow.SplitColumn + 1).Select 
+        ActiveWindow.Zoom = 100 
+    Next ws 
+    ActiveWorkbook.Worksheets(1).Activate 
 End Sub
